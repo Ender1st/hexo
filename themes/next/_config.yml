@@ -320,7 +320,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: 
     size:
 
   # Font settings for posts.
@@ -333,7 +333,7 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
+    family: Lobster Two
     size:
 
   # Font settings for <code> and code blocks.
@@ -708,7 +708,7 @@ canvas_nest: false
 three_waves: false
 
 # canvas_lines
-canvas_lines: true
+canvas_lines: false
 
 # canvas_sphere
 canvas_sphere: false
@@ -719,7 +719,7 @@ canvas_sphere: false
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 300
   alpha: 0.6
   zIndex: -1

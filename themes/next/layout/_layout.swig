@@ -89,6 +89,8 @@
   {% include '_third-party/exturl.swig' %}
 
 
+<!-- 页面点击CET4 -->
+<script type="text/javascript" src="/js/src/cet4.js"></script>
 
 </body>
 

@@ -4,8 +4,9 @@ notshow: false
 comments: true
 abbrlink: 4b69c08e
 date: 2018-10-14 09:34:31
-categories:
+categories: OI
 tags:
+  - OI
 password:
 ---
  # NOIP2018初赛游记

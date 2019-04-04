@@ -4,8 +4,9 @@
 
 # Site
 title: Ender's blog
-subtitle: 艾德的个人博客
-description: 我是艾德，一个热爱科技，热爱生活的人
+subtitle: 
+signature: 以梦为马，莫负韶华
+description: 
 keywords: 原创,OI,OIer,生活
 author: Ender
 language: zh-Hans
@@ -13,7 +14,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ender.xin
+url: https://www.ender.xin
 root: /
 permalink: post/:abbrlink.html
 abbrlink:
@@ -84,6 +85,7 @@ deploy:
   - type: git
     repository: 
         github: git@github.com:Ender1st/Ender1st.github.io.git
+ #       coding: git@git.coding.net:Ender1st/My-blog.git
     branch: master
   - type: baidu_url_submitter
 
@@ -118,7 +120,6 @@ neat_js:
 nofollow:
   enable: true
   exclude:
-    - ender.xin
     - juicymio.github.io
     - onglu.xyz
     - coyangjr.top
@@ -126,10 +127,14 @@ nofollow:
     - odeinjul.ooo
 
 baidu_url_submit:
-  count: 10 # 提交最新的一个链接
-  host: ender.xin # 在百度站长平台中注册的域名
-  token: 331ijvLgimVaxSIz # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
-  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
+  count: 10
+  # 提交最新的一个链接
+  host: www.ender.xin
+  # 在百度站长平台中注册的域名
+  token: 331ijvLgimVaxSIz
+  # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt
+  # 文本文档的地址， 新链接会保存在此文本文档里
 
 # Security
 ##
