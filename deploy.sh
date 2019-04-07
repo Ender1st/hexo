@@ -1,2 +1,4 @@
-git pull origin master
-hexo g
+cd /var/www/blog/
+git reset --hard
+git pull
+hexo generate
