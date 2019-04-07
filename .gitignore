@@ -1,0 +1,6 @@
+public/
+.deploy_git/
+.git/
+package.json
+package-lock.json
+debug.log
